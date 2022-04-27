@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.main {
+    background: rgb(204, 119, 119);
+    width: 100vw;
+    height: 100vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.area {
+    background: white;
+    width: 40%;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px  rgba(0, 0, 0, 0.5);
+    
+}
+
+#items {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+#last {
+
+    width: 80%;
+    justify-items: center;
+}
+
+h1 {
+   font-size: 35px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+label {
+    display: block;
+}
+
+#first {
+    margin-top: 30px;
+    
+}
+
+#second {
+    margin-top: 30px;
+}
+
+input:not(#entrar) {
+    outline: none;
+    width: 90%;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #33ff77;
+}
+
+input:not(#entrar):focus {
+    border: 1px solid rgb(0, 217, 255)
+}
+
+.botao {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#entrar {
+    padding: 15px;
+    border-radius: 15px;
+   
+    background: #33cfff;
+}
+
+#entrar:hover {
+    padding: 17px;
+    background: #08c1fa;
+    transition: 0.3s;
+    cursor: pointer;
+    
+}
+
+input:focus {
+    border: 1px solid #33cfff;
+}
