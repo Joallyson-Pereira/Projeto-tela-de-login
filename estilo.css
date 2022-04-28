@@ -12,29 +12,28 @@
     height: 100vh;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
     display: flex;
 }
 
 .area {
     background: white;
-    width: 40%;
+    min-width: 60%;
+    min-height: 60vh;
     height: 500px;
     border-radius: 20px;
     box-shadow: 2px 2px 2px 1px  rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
     
 }
 
 #items {
     display: flex;
-    justify-content: center;
     padding-top: 30px;
 }
 
 #last {
-
     width: 80%;
-    justify-items: center;
+    margin: 0 auto;
 }
 
 h1 {
@@ -60,7 +59,8 @@ label {
 
 input:not(#entrar) {
     outline: none;
-    width: 90%;
+    width: 93%;
+    max-width: 85%;
     padding: 15px;
     border-radius: 10px;
     border: 1px solid #33ff77;
